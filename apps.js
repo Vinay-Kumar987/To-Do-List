@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', loadTasks);
 document.getElementById('task-form').addEventListener('submit', addTask);
 document.getElementById('task-list').addEventListener('click', manageTask);
-alert("welcome our ebside")
+alert("welcome our webside")
 
 function loadTasks() {
     let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
